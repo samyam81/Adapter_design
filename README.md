@@ -35,7 +35,19 @@ This repository contains implementations of the Adapter design pattern in variou
 - **PenAdapter.cs**: Implements the `IPen` interface by adapting `PilotPen` to write assignments.
 - **PilotPen.cs**: Provides the implementation for writing using a Pilot Pen.
 
+### Python
+
+- **main.py**: Contains the main function to demonstrate the usage of the Adapter pattern.
+- **pen.py**: Defines the `Pen` interface.
+- **pilot_pen.py**: Provides the implementation for writing using a Pilot Pen.
+- **pen_adapter.py**: Implements the `Pen` interface by adapting `PilotPen` to write assignments.
+- **assignment_work.py**: Defines the `AssignmentWork` class which uses a `PenAdapter` to write assignments.
+
 ## Usage
 
 Each implementation demonstrates how the Adapter pattern can be used to make two incompatible interfaces work together seamlessly. Simply run the main function in each respective language file to see the demonstration.
 
+## Contributors
+
+- [Samyam](https://github.com/samyam81) and 
+- [Swikriti](https://github.com/swikriti0416)
